@@ -1,0 +1,30 @@
+/* Name: Garvin Stewart
+   Date: 09/20/2026
+   Assignment: CSD 420 Module 7 Programming Assignment
+   Purpose: External style sheet with a white-fill/black-stroke class,
+            red and green ID selectors, and a border class for the first pane.
+   Source: Adapted from Liang, Intro to Java Programming, Listing 31.1 (mystyle.css). */
+
+/* Style class: white fill with a black outline (reused by more than one circle) */
+.plaincircle {
+  -fx-fill: white;
+  -fx-stroke: black;
+}
+
+/* Style class: thick black border drawn around a pane */
+.border {
+  -fx-border-color: black;
+  -fx-border-width: 5;
+}
+
+/* Style ID: red fill and red outline (applies to exactly one node) */
+#redcircle {
+  -fx-fill: red;
+  -fx-stroke: red;
+}
+
+/* Style ID: green fill and green outline (applies to exactly one node) */
+#greencircle {
+  -fx-fill: green;
+  -fx-stroke: green;
+}
